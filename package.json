@@ -1,0 +1,25 @@
+{
+  "name": "autocommit",
+  "version": "1.0.0",
+  "description": "Generates meaningful git commit messages using AI based on staged diffs",
+  "main": "src/autocommit.js",
+  "bin": {
+    "autocommit": "src/autocommit.js"
+  },
+  "scripts": {
+    "start": "node src/autocommit.js",
+    "test": "node test/test.js",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "developer-tools",
+    "autocommit"
+  ]
+}
